@@ -38,6 +38,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJwYXRyaW1vbmlvSldUIiwic3ViI
 Endpoints
 - Listagem de usuários: GET http://localhost:8080/usuarios
 - Listagem de um único usuário: GET http://localhost:8080/usuarios/10
+- Exclusão de um usuário: DELETE http://localhost:8080/usuarios/10
 - Manutenção de usuários (Inclusão/Edição): POST http://localhost:8080/usuarios/save  (não necessita autenticação)
 ```
 {
@@ -53,6 +54,7 @@ Endpoints
 Endpoints
 - Listagem de marcas: GET http://localhost:8080/marcas
 - Listagem de uma única marca: GET http://localhost:8080/marcas/5
+- Exclusão de uma marca: DELETE http://localhost:8080/marcas/5
 - Manutenção de Marcas (Inclusão/Edição): POST http://localhost:8080/marcas/save
 ```
 {
@@ -66,6 +68,7 @@ Endpoints
 Endpoints
 - Listagem de patrimonios: GET http://localhost:8080/patrimonios
 - Listagem de um único patrimonio: GET http://localhost:8080/patrimonios/1
+- Exclusão de um patrimonio: DELETE http://localhost:8080/patrimonios/1
 - Manutenção de patrimonios (Inclusão/Edição): POST http://localhost:8080/patrimonios/save 
 ```
 {
