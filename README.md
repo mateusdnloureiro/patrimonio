@@ -6,7 +6,7 @@ Implementação de uma Web API REST para o gerenciamento de patrimônios de uma 
 #### Configurações Iniciais
 - JDK Java 11.0.5 + Spring Boot + Rest
 - Utilização de banco de dados PostgresSQL
-- Script de criação das tabelas 'script-ddl.sql'
+- Script de criação das tabelas src/main/resources/script-ddl.sql
 
 #### Autenticação com Token JWT
 - Login via endpoint http://localhost:8080/login 
@@ -35,7 +35,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJwYXRyaW1vbmlvSldUIiwic3ViI
 ```
 #### Manutenção de Usuários
 
-#####Endpoints
+Endpoints
 - Listagem de usuários: GET http://localhost:8080/usuarios
 - Listagem de um único usuário: GET http://localhost:8080/usuarios/10
 - Manutenção de usuários (Inclusão/Edição): POST http://localhost:8080/usuarios/save  (não necessita autenticação)
@@ -50,7 +50,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJwYXRyaW1vbmlvSldUIiwic3ViI
 
 #### Manutenção de Marcas
 
-#####Endpoints
+Endpoints
 - Listagem de marcas: GET http://localhost:8080/marcas
 - Listagem de uma única marca: GET http://localhost:8080/marcas/5
 - Manutenção de Marcas (Inclusão/Edição): POST http://localhost:8080/marcas/save
@@ -63,7 +63,7 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJwYXRyaW1vbmlvSldUIiwic3ViI
 
 #### Manutenção de Patrimônios
 
-#####Endpoints
+Endpoints
 - Listagem de patrimonios: GET http://localhost:8080/patrimonios
 - Listagem de um único patrimonio: GET http://localhost:8080/patrimonios/1
 - Manutenção de patrimonios (Inclusão/Edição): POST http://localhost:8080/patrimonios/save  (não necessita autenticação)
@@ -79,6 +79,6 @@ Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJwYXRyaW1vbmlvSldUIiwic3ViI
 
 #### Testes (SpringBootTest + TestRestTemplate)
 
-- PatrimonioApplicationTests: Cobertura de testes basicos sobre as funcionalidades da API Rest
+- PatrimonioApplicationTests: Cobertura de testes básicos sobre as funcionalidades da API Rest
 
 - NumeroServiceTest: Validação do algoritmo de retorno do maior numero da familia dado um numero N qualquer, exemplo: dado o numero 335, o retorno deve ser 533   
