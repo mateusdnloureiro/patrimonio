@@ -66,7 +66,7 @@ Endpoints
 Endpoints
 - Listagem de patrimonios: GET http://localhost:8080/patrimonios
 - Listagem de um único patrimonio: GET http://localhost:8080/patrimonios/1
-- Manutenção de patrimonios (Inclusão/Edição): POST http://localhost:8080/patrimonios/save  (não necessita autenticação)
+- Manutenção de patrimonios (Inclusão/Edição): POST http://localhost:8080/patrimonios/save 
 ```
 {
     "id": 1,                                (não é necessário na inclusão)    
